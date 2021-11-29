@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Automated Tour Guide System</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up_short">CREATE AN ACCOUNT</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="existing_user">Already have an Account?</string>
+    <string name="create_new_user">Don\'t have  an account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="logo">Logo</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="forgot_password_title">"Forgot Password?"</string>
+    <string name="submit">"Submit"</string>
+    <string name="edit">"Edit"</string>
+    <string name="Record">"Record Audio"</string>
+    <string name="Media">"Choose From Media"</string>
+    <string name="upload">"Upload"</string>
+    <string name="cancel">Cancel</string>
+    <string name="pause_recording_button">Pause</string>
+    <string name="toast_recording_start">Recording started</string>
+    <string name="toast_recording_finish">Recording saved to</string>
+    <string name="notification_recording">Recording...</string>
+    <string name="no_saved_recordings_message">No saved recordings</string>
+    <string name="resume_recording_button">Resume</string>
+    <string name="default_file_name">My Recording</string>
+    <string name="record_prompt">Tap the button to start recording</string>
+    <string name="record_in_progress">Recording</string>
+    <string name="add_audio">Add Tourguide Audio</string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+    <string name="add_location">Add Location</string>
+    <string name="description_forgot_password">"Lost your password? Please enter your email address. You will receive a link to a create new password via email."</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Audio Guide</string>
+    <string name="title_notifications">Visited Places</string>
+    <string name="title_logout">Log out</string>
+    <string name="example_email">"HelloWorld@gmail.com"</string>
+    <string name="auth_failed">Invalid password or email</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="add_new_location">Add new location</string>
+    <string name="location_list">Locations</string>
+    <string name="need_location_permission_message">You need to enable location permissions first</string>
+    <string name="location_permissions_granted_message">Location Permissions Granted</string>
+    <string name="setting_enabled" translatable="false">EnabledSetting</string>
+    <string name="settings_label">Settings</string>
+    <string name="location_permissions">Location Permissions</string>
+    <string name="enable_geofences">Enable Geofences</string>
+    <string name="privacy">http://www.google.com/policies/privacy</string>
+    <string name="ringer_permissions">Ringer Permissions</string>
+    <string name="silent_mode_activated">Silent mode activated</string>
+    <string name="touch_to_relaunch">Touch to launch the app.</string>
+    <string name="back_to_normal">Back to normal</string>
+
+
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+    <string name="geofence_transition_notification_text">
+        Click notification to return to app
+    </string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="state_name">state_name</string>
+    <string name="state_address">state_address</string>
+    <string name="distance">distance</string>
+    <string name="title_activity_location_geofence">Map</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="start_geofencing">Start Geofencing</string>
+    <string name="stop_geofencing">Stop Geofencing</string>
+
+    <string name="distance_format">%d KM</string>
+    <string name="delete">Delete</string>
+
+
+</resources>

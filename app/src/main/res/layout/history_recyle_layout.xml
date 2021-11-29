@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/less_round_corner"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:tag="cards main container">
+
+    <LinearLayout
+        android:id="@+id/relative"
+        android:padding="1dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/state_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="@string/state_name">
+        </TextView>
+
+        <TextView
+            android:id="@+id/state_address"
+            android:textColor="@color/gray_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/state_address">
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:text="@string/distance"
+        android:textSize="12sp" />
+
+</LinearLayout>

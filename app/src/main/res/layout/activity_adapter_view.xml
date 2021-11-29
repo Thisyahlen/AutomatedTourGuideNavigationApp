@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/round_corner"
+    android:orientation="horizontal"
+    android:tag="cards main container">
+
+    <ImageButton
+        android:id="@+id/audio_play"
+        android:padding="6dp"
+        android:layout_margin="3dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/play" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:padding="6dp"
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/state_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="@string/state_name">
+        </TextView>
+
+        <TextView
+            android:id="@+id/state_address"
+            android:textColor="@color/gray_text"
+            android:layout_below="@+id/state_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/state_address">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="13dp"
+            android:layout_below="@id/state_address"
+            android:layout_marginRight="13dp"
+            android:text="@string/distance"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="1dp"
+            android:background="@drawable/login_button"
+            android:text="@string/delete"
+            android:minHeight="0dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/red"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+

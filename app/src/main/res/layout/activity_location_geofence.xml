@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <fragment
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        tools:context=".LocationGeofence" />
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner">
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_location"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/state_address"
+            android:textColor="@color/gray_text"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            />
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+            <TableRow>
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:padding="3dip"
+                    android:src="@drawable/road" />
+                <ImageView
+                    android:id="@+id/audio_play"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:padding="3dip"
+                    android:src="@drawable/play" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:textSize="12sp"
+                    android:id="@+id/distance"
+                    android:textColor="@color/blue"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/distance"
+                    android:padding="3dip" />
+                <TextView
+                    android:textSize="12sp"
+                    android:id="@+id/geofencing_status"
+                    android:textColor="@color/blue"
+                    android:text="@string/start_geofencing"
+                    android:layout_gravity="center"
+                    android:padding="3dip" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

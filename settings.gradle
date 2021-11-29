@@ -1,0 +1,2 @@
+rootProject.name='Automated Tour Guide System'
+include ':app'

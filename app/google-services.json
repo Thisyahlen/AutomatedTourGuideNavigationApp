@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "251626049213",
+    "firebase_url": "https://automatedtourguidesystem.firebaseio.com",
+    "project_id": "automatedtourguidesystem",
+    "storage_bucket": "automatedtourguidesystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251626049213:android:7f615c4368c6e7a79e71d4",
+        "android_client_info": {
+          "package_name": "com.example.automatedtourguidesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251626049213-g7jqlvj3k1stdjbbcmulh4u0paoei64f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.automatedtourguidesystem",
+            "certificate_hash": "92fdafb62c0ad59605373c546d9f93096c496260"
+          }
+        },
+        {
+          "client_id": "251626049213-roiucpma4din69uabrd78p8ubn8b8338.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIC2DdqsyaOSSfrvoOnqGdvWqMAhgMW84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251626049213-roiucpma4din69uabrd78p8ubn8b8338.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
